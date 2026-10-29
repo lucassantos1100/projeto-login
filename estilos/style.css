@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+/* 
+    Paleta de cores
+    Verde: #49a09d
+    Lilás: #5f2c82
+*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    height:74vh;
+    background-image: linear-gradient(to top, #5f2c82, #49a09d);
+    background-repeat: no-repeat;
+    font-size: 1em;
+}
+
+main {
+    background: white;
+    width: 50%;
+    border-radius: 20px;
+    margin: auto;
+    padding: 20px;
+    margin-top: 50%;
+}
+
+main > section {
+    background: blue url(../imagens/azul.jpg);
+}
+
+main > h1 {
+    padding: 10px;
+    text-align: center;
+}
+
+input {
+    background-color: #94CFCD;
+    border: 2px solid #5F2C82;
+    border-radius: 5px;
+    width: 90%;
+    margin: 2px;
+    padding: 10px;
+}
+
+input#entrar {
+    background-color: #53AAA7;
+    color: white;
+    width: 100%;
+    border: 0px solid white;
+}
+
+input#recs {
+    background-color: white;
+    color: #2D6462;
+    width: 100%;
+    border: 1px solid #5BB9B5;
+}
